@@ -16,32 +16,36 @@
     
 
     <body>
-        <!--웹페이지에 표시할 내용을 적습니다.-->
-        <h1>
-            <a href ="index.html" style ="text-decoration: none;">
-            <!--홈페이지 ip주어지면 #에 넣기-->
-            <img src="home.png" alt="내가 만든 사진" width="200" height="100">
-            </a>
-            <a href ="index.html" style ="color :black">특별한 것을 나누는 페이지<em>(share)</em></a>
-        </h1>
+        <div class="title">
+            <h1>
+                <a href ="index.html" style ="text-decoration: none;">
+                <img src="home.png" alt="내가 만든 사진" width="200" height="100">
+                </a>
+                <a href ="index.html" style ="color :black">특별한 것을 나누는 페이지<em>(share)</em></a>
+            </h1>
 
-        <a class="login" href ="login.html" style="text-align: right" target="blank">로그인</a>
+            <a class="login" href ="login.html" target="blank" style="text-align: right;">로그인</a>
+        </div>
 
-        <br><br><br><br>
-        <img src="share.jpg" alt="공유" width ="500" height="250">
 
-        <dl>
-            <dt>사이트의 존재 이유</dt>
-            <dd>모두가 <strong>특별한 사람들</strong>이고 소중한 일,노래,사진 등을 가지고 있을텐데 이를 공유받고 싶어요.<br>
-            다른 사람들의 특별한 일들을 보고 웃으면서 하루를 시작해봐요</dd>
-        </dl>
-
-        <u1>
-            <li><a href = "event.html">특별한 사건,일</a></li>
-            <li><a href = "song.html">특별한 노래</a></li>
-            <li><a href = "image.html">특별한 사진</a></li>
-        </u1>
-
+        <div id="grid">
+            <ul>
+                <li><a href = "event.html">특별한 사건,일</a></li>
+                <li><a href = "song.html">특별한 노래</a></li>
+                <li><a href = "image.html">특별한 사진</a></li>
+            </ul>
+            <div id ="article">
+                <img src="share.jpg" alt="공유" width ="500" height="250">
+    
+                <dl>
+                    <dt>사이트의 존재 이유</dt>
+                    <dd>모두가 <strong>특별한 사람들</strong>이고 소중한 일,노래,사진 등을 가지고 있을텐데 이를 공유받고 싶어요.<br>
+                    다른 사람들의 특별한 일들을 보고 웃으면서 하루를 시작해봐요</dd>
+                </dl>
+                    <br><br><br>
+                
+            </div>
+        </div>
         <p>
             나의 첫 사이트:
             <a href = "https://james11105.github.io/my-first-web-site/" target="_blank">
