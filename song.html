@@ -8,17 +8,31 @@
         <link rel="stylesheet" href="style1.css">
     </head>
     <body>
-        <h1>
-            <a href ="index.html" style ="text-decoration: none;">
-            <img src="home.png" alt="내가 만든 사진" width="200" height="100">
-            </a>
-            <a href ="index.html" style ="color :black">특별한 것을 나누는 페이지<em>(share)</em></a>
-        </h1>
+        <div class="title">
+            <h1>
+                <a href ="index.html" style ="text-decoration: none;">
+                <img src="home.png" alt="내가 만든 사진" width="200" height="100">
+                </a>
+                <a href ="index.html" style ="color :black">특별한 것을 나누는 페이지<em>(share)</em></a>
+            </h1>
 
-        <h3> 이 페이지는 자기가 듣는 특별한 <a style ="color:mediumspringgreen"> 노래</a>들을 공유하는 사이트 입니다.</h3>
-        <h4>오늘 제가 공유하고 싶은 노래는</h4> <u>빌려줄게-신용재</u> 입니다<br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vU3aRHDJ8WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <a class="login" href ="login.html" target="blank" style="text-align: right;">로그인</a>
+        </div>
 
+
+        <div id="grid">
+            <ul>
+                <li><a href = "event.html">특별한 사건,일</a></li><br>
+                <li><a href = "song.html">특별한 노래</a></li><br>
+                <li><a href = "image.html">특별한 사진</a></li><br>
+            </ul>
+            <div id ="article">
+                <h3> 이 페이지는 자기가 듣는 특별한 <a style ="color:mediumspringgreen"> 노래</a>들을 공유하는 사이트 입니다.</h3>
+                <h4>오늘 제가 공유하고 싶은 노래는</h4> <u>빌려줄게-신용재</u> 입니다<br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vU3aRHDJ8WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+            </div>
+        </div>
+        
         <h2>여러분이 공유하고 싶은 노래는 무엇인가요?</h2>
         <form>
             <fieldset>
